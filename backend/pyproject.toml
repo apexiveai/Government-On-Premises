@@ -1,0 +1,5 @@
+[tool.ruff]
+# Ruff က B008 (FastAPI Depends usage) ကို လျစ်လျត់ရှုပေးရန်
+lint.ignore = [
+    "B008",
+]
